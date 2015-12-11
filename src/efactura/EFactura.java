@@ -27,7 +27,7 @@ public class EFactura {
     public static void main(String[] args) throws KeyStoreException, IOException, NoSuchAlgorithmException, CertificateException, UnrecoverableKeyException, Exception {
         PrivateKey privateKey = null;
         PublicKey publicKey = null;
-
+        /*CERT_DGI_EFACTURA.*/
         KeyStore keystore = KeyStore.getInstance("PKCS12");
         String p12Password = "16923509j";
         keystore.load(new FileInputStream("./clientclient.p12"), p12Password.toCharArray());
